@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "ChrisProjects — AccuratKey & TrivQuic",
-  description: "ChrisProjects by chris0622ha — AccuratKey typing trainer and TrivQuic trivia app",
+  title: "tqak — AccuratKey & TrivQuic",
+  description: "tqak by chris0622ha — AccuratKey typing trainer and TrivQuic trivia app",
 };
 
 export default function RootLayout({ children }) {
