@@ -504,7 +504,7 @@ export default function Home() {
           <div style={{ textAlign:"center", marginBottom:48 }}>
             <div style={{ fontSize:11, letterSpacing:3, textTransform:"uppercase", color:"#555", marginBottom:12 }}>What's new</div>
             <h2 style={{ fontSize:"clamp(28px,4vw,44px)", fontWeight:900, margin:"0 0 12px", color:"#fff" }}>Changelog</h2>
-            <p style={{ color:"#666", fontSize:15 }}>Updated every 3 additions across both apps</p>
+            <p style={{ color:"#666", fontSize:15 }}>Updated every 2 additions across both apps</p>
           </div>
 
           {/* Filter tabs */}
