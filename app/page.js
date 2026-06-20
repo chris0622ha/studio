@@ -443,6 +443,7 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["COPPA: full sweep of every admin panel for unjustified broad data access"] },
   
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Removed a stray button from the bottom of the home screen"] },
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed a bug where the age question would show up again every time you signed out. Also added a way for the team to act if we learn an account belongs to someone under 13 after the fact."] },
