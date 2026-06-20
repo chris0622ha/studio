@@ -443,6 +443,8 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more privacy gaps for child profiles - challenges, custom word lists, and theme shop purchases now stay local instead of syncing to our servers"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added a Children's Privacy page"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Extended child-profile privacy protections to friend requests, photo uploads, and session history"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed several admin panel bugs including maintenance mode locking out the owner, and feedback replies silently failing"] },
@@ -451,8 +453,7 @@ const CHANGELOG = [
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 18 2026", items:["Custom SVG icons for all 165 levels — 90 new icons for levels 76-165","Free Run, Century Club, Endurance, Literature, Machine Mode, Legend Tier icon sets"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 18 2026", items:["SVG tab icons: joystick, map path, calendar grid, keyboard","Section banners with Jump here scroll, 11 sections across 165 levels","Section unlock confetti — 120 pieces + animated popup"] },
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 18 2026", items:["Google login — shows display name in nav","Firebase Firestore sessions per UID saved","Personal best tracking, profile modal, leaderboard by UID"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 15 2026", items:["165-level progression system","Multi-profile support (Netflix-style)","Keys currency, star ratings, streak tracking"] },
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 13 2026", items:["38 games across 10 categories","Daily challenge with global leaderboard","Streak multipliers and score tracking"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 15 2026", items:["165-level progression system","Multi-profile support (Netflix-style)","Keys currency, star ratings, streak tracking"] }
 ];
 
 // ── Shared patterns ───────────────────────────────────────────────────────
