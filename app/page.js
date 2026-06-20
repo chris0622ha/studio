@@ -443,6 +443,7 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Photo uploads are no longer offered when creating a profile for someone under 13"] },
   
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more privacy gaps for child profiles - challenges, custom word lists, and theme shop purchases now stay local instead of syncing to our servers"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added a Children's Privacy page"] },
