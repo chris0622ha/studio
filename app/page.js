@@ -443,6 +443,8 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fix the actual cause of buttons bouncing to loading screen then back to level map"] },
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Closed an unauthenticated debug endpoint"] },
   
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed a way to view other players' profiles that wasn't properly restricted for younger sessions"] },
@@ -467,8 +469,7 @@ const CHANGELOG = [
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Photo uploads are no longer offered when creating a profile for someone under 13"] },
   
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more privacy gaps for child profiles - challenges, custom word lists, and theme shop purchases now stay local instead of syncing to our servers"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added a Children's Privacy page"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Extended child-profile privacy protections to friend requests, photo uploads, and session history"] }
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added a Children's Privacy page"] }
 ];
 
 // ── Shared patterns ───────────────────────────────────────────────────────
