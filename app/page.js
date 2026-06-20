@@ -443,6 +443,8 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["COPPA: stop loading every user account by default in the admin panel - requires an actual search now"] },
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["COPPA: full sweep of every admin panel for unjustified broad data access"] },
   
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Removed a stray button from the bottom of the home screen"] },
@@ -459,8 +461,7 @@ const CHANGELOG = [
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Extended child-profile privacy protections to friend requests, photo uploads, and session history"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed several admin panel bugs including maintenance mode locking out the owner, and feedback replies silently failing"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed broken links like /signin sometimes landing on the wrong screen, and updated outdated '15 levels' text to 165"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added privacy protections for child profiles — progress now saves locally instead of to our servers, and child profiles never appear on public pages or leaderboards"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 18 2026", items:["Custom SVG icons for all 165 levels — 90 new icons for levels 76-165","Free Run, Century Club, Endurance, Literature, Machine Mode, Legend Tier icon sets"] }
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added privacy protections for child profiles — progress now saves locally instead of to our servers, and child profiles never appear on public pages or leaderboards"] }
 ];
 
 // ── Shared patterns ───────────────────────────────────────────────────────
