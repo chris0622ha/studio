@@ -443,6 +443,7 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more ways app state and shop purchases could be tampered with"] },
   
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Close real level-lock and game-availability bypass paths"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Remove Spelling Bee entirely - text-to-speech quality had no good free/no-account fix, decided to re"] },
