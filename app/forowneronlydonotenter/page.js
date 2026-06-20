@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef, useCallback } from "react";
+import LevelIconGallery from "../LevelIconGallery";
 
 // Password gate for this page now happens server-side in middleware.ts —
 // the page itself never renders unless the request already passed that
@@ -249,17 +250,9 @@ function OwnerPageContent() {
       {/* ══════════════ ACCURATKEY ══════════════ */}
       <Divider label="AccuratKey" color="#7c6af7"/>
 
-      {/* Level colors */}
+      {/* Level icons — ALL 165, real SVG components, not color swatches */}
       <div style={{marginBottom:32}}>
-        <div style={{fontSize:11,color:"#555",marginBottom:10,letterSpacing:1}}>Level colors — {AK_LEVEL_COLORS.length} total — hover to see hex</div>
-        <div style={{display:"flex",flexWrap:"wrap",gap:4}}>
-          {AK_LEVEL_COLORS.map((c,i)=>(
-            <div key={i} title={`Lv ${i+1}: ${c}`} style={{width:26,height:26,borderRadius:5,background:c,cursor:"default",transition:"transform 0.1s"}}
-              onMouseEnter={e=>e.currentTarget.style.transform="scale(1.4) translateY(-2px)"}
-              onMouseLeave={e=>e.currentTarget.style.transform="scale(1)"}
-            />
-          ))}
-        </div>
+        <LevelIconGallery />
       </div>
 
       {/* KKey icon */}
