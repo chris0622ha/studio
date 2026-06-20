@@ -443,11 +443,32 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 18 2026", items:["Custom SVG icons for all 165 levels — 90 new icons for levels 76-165","Free Run, Century Club, Endurance, Literature, Machine Mode, Legend Tier icon sets"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 18 2026", items:["SVG tab icons: joystick, map path, calendar grid, keyboard","Section banners with Jump here scroll, 11 sections across 165 levels","Section unlock confetti — 120 pieces + animated popup"] },
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 18 2026", items:["Google login — shows display name in nav","Firebase Firestore sessions per UID saved","Personal best tracking, profile modal, leaderboard by UID"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 15 2026", items:["165-level progression system","Multi-profile support (Netflix-style)","Keys currency, star ratings, streak tracking"] },
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 13 2026", items:["38 games across 10 categories","Daily challenge with global leaderboard","Streak multipliers and score tracking"] },
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Closed an unauthenticated debug endpoint"] },
+  
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed a way to view other players' profiles that wasn't properly restricted for younger sessions"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Full source sweep: remove dead unguarded code that had no isProfileRestricted check"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Extend automated COPPA cleanup to daily-leaderboard entries for fully-restricted accounts"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Automate COPPA pre-existing-data cleanup: one button now actually removes photos and deletes session"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added a tool for the team to check how many ex"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Deleting a profile now properly removes its full history instead of leaving it behind"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["COPPA: stop loading every user account by default in the admin panel - requires an actual search now"] },
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["COPPA: full sweep of every admin panel for unjustified broad data access"] },
+  
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Removed a stray button from the bottom of the home screen"] },
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed a bug where the age question would show up again every time you signed out. Also added a way for the team to act if we learn an account belongs to someone under 13 after the fact."] },
+  
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Notification prompts and background services now only activate after signing in"] },
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Removed direct messaging between friends"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed additional privacy gaps - feedback reports no longer include a child profile's name, and privacy settings reflect that restricted profiles are already private"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Photo uploads are no longer offered when creating a profile for someone under 13"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more privacy gaps for child profiles - challenges, custom word lists, and theme shop purchases now stay local instead of syncing to our servers"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added a Children's Privacy page"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Extended child-profile privacy protections to friend requests, photo uploads, and session history"] }
 ];
 
 // ── Shared patterns ───────────────────────────────────────────────────────
