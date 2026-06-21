@@ -443,6 +443,15 @@ function TQAssets() {
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Add workflow_dispatch trigger to the icon-sync workflow for manual runs"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Make the icon-sync automation also cover level metadata, not just icon shapes"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Fix real gameplay bugs across multiple games"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Add 5 new levels (166-170), retire over-the-top names from levels 130-165 in favor of calmer ones, s"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed Speed Burst generating garbled single-character text instead of real words, and cleaned up an abbreviated difficulty value used throughout the games"] },
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Revert temporary Google account picker forcing - back to normal auto-select behavior"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added downloadable milestone and birthday certificates"] },
   
   { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Replace Google Translate widget with real, hand-maintained translations (English, Korean, Spanish)"] },
@@ -463,16 +472,7 @@ const CHANGELOG = [
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Sign-in is now disabled inside the tqak preview embed, matching TrivQuic"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed switching profiles not working on mobile"] },
   
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Removed ghost mode (the replay cursor feature)"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed several abbreviated/raw-text labels across the app"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Most screens now use the extra space on desktop instead of staying narrow"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Add a global error boundary so crashes show the actual error instead of silently unmounting back to "] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fix the actual cause of buttons bouncing to loading screen then back to level map"] },
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Closed an unauthenticated debug endpoint"] },
-  
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed a way to view other players' profiles that wasn't properly restricted for younger sessions"] }
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Removed ghost mode (the replay cursor feature)"] }
 ];
 
 // ── Shared patterns ───────────────────────────────────────────────────────
