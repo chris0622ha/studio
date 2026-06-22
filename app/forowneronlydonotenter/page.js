@@ -2,26 +2,29 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import LevelIconGallery from "../LevelIconGallery";
 import { KKey as RealKKey } from "../KKeyIcon";
+import { ALL_LEVELS } from "../LevelsData";
+import { ALL_SECTIONS } from "../SectionsData";
 
 // Password gate for this page now happens server-side in middleware.ts —
 // the page itself never renders unless the request already passed that
 // check, so there's nothing client-side to bypass via DevTools or
 // sessionStorage.
 
-// ─── ACCURATKEY: All 11 sections (from source) ────────────────────────────
-const AK_SECTIONS = [
-  { firstId:1,   label:"Foundations",     subtitle:"Home row, core keys, first speed targets",           color:"#10b981", icon:"F" },
-  { firstId:16,  label:"Precision Flow",  subtitle:"Vocabulary, patterns, accuracy under pressure",      color:"#818cf8", icon:"P" },
-  { firstId:31,  label:"Word Power",      subtitle:"Medical, sports, mythology, compound mastery",       color:"#f59e0b", icon:"W" },
-  { firstId:46,  label:"Keyboard Mastery",subtitle:"Spelling, rows, hand isolation, full sentences",     color:"#06b6d4", icon:"K" },
-  { firstId:61,  label:"Speed Surge",     subtitle:"Push WPM — sprint drills, patterns, grand mastery", color:"#facc15", icon:"S" },
-  { firstId:66,  label:"Free Run",        subtitle:"No WPM targets — flow, fluency, exploration",       color:"#ec4899", icon:"R" },
-  { firstId:100, label:"Century Club",    subtitle:"Level 100 and beyond — prestige territory",         color:"#ef4444", icon:"C" },
-  { firstId:116, label:"Endurance",       subtitle:"Long-form, rows, alternating, pinky work",          color:"#a855f7", icon:"E" },
-  { firstId:131, label:"Literature",      subtitle:"Philosophy, scripture, Shakespeare, US history",     color:"#fbbf24", icon:"L" },
-  { firstId:146, label:"Machine Mode",    subtitle:"Finger fury, code marathons, length-based gauntlets",color:"#f97316", icon:"M" },
-  { firstId:156, label:"Legend Tier",     subtitle:"Seven crowns — the ultimate proving ground",         color:"#dc2626", icon:"X" },
-];
+function ColorSwatch({ hex }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <div
+      onClick={() => { navigator.clipboard?.writeText(hex); setCopied(true); setTimeout(() => setCopied(false), 1200); }}
+      title={hex}
+      style={{ width: 44, height: 44, borderRadius: 8, background: hex, cursor: "pointer", border: "1px solid #1e1e30", display: "flex", alignItems: "center", justifyContent: "center", transition: "transform .1s" }}
+      onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+      onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+    >
+      {copied && <span style={{ fontSize: 9, color: "#fff", background: "#000a", borderRadius: 4, padding: "2px 4px" }}>✓</span>}
+    </div>
+  );
+}
+
 
 // ─── ACCURATKEY: level colors (first 60 from LEVELS array) ───────────────
 const AK_LEVEL_COLORS = [
@@ -245,6 +248,20 @@ function OwnerPageContent() {
         <LevelIconGallery />
       </div>
 
+      {/* Real color palette — every unique color actually used across all
+          170 levels, derived from LevelsData.js rather than a separate
+          hand-typed array that can drift out of sync with the real game. */}
+      <div style={{marginBottom:32}}>
+        <div style={{fontSize:11,color:"#555",marginBottom:10,letterSpacing:1}}>
+          Level color palette — {[...new Set(ALL_LEVELS.map(l=>l.color))].length} unique colors — click to copy hex
+        </div>
+        <div style={{display:"flex",flexWrap:"wrap",gap:6}}>
+          {[...new Set(ALL_LEVELS.map(l=>l.color))].map(c=>(
+            <ColorSwatch key={c} hex={c} />
+          ))}
+        </div>
+      </div>
+
       {/* KKey icon — the REAL component from AccuratKey, not a recreation */}
       <div style={{marginBottom:32}}>
         <div style={{fontSize:11,color:"#555",marginBottom:10,letterSpacing:1}}>KKey icon (Keys currency) — sizes</div>
@@ -314,7 +331,7 @@ function OwnerPageContent() {
       <div style={{marginBottom:32}}>
         <div style={{fontSize:11,color:"#555",marginBottom:10,letterSpacing:1}}>Section banners — all 11</div>
         <div style={{display:"flex",flexDirection:"column",gap:6}}>
-          {AK_SECTIONS.map((s,i)=>(
+          {ALL_SECTIONS.map((s,i)=>(
             <div key={s.label} style={{
               height:44,borderRadius:10,
               background:`linear-gradient(90deg,${s.color}18,${s.color}06)`,

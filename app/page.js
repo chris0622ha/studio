@@ -351,8 +351,8 @@ export default function Home() {
         {/* AccuratKey */}
         <section id="accuratkey" style={{padding:"0 clamp(20px,5vw,80px)",maxWidth:1280,margin:"0 auto"}}>
           <AppCard name="AccuratKey" tag="AccuratKey" tagColor="#7c6af7" url="https://accuratkey.vercel.app" accentColor="#7c6af7" side="left"
-            description="A serious keyboard training app with 170 levels across 12 sections — from home-row basics to impossible long-word gauntlets. Multi-profile, WPM tracking, streak system, and daily challenges."
-            stats={[{value:170,label:"Levels"},{value:10,label:"Layouts"},{value:12,label:"Sections"}]}
+            description="A serious keyboard training app with 170 levels across 11 sections — from home-row basics to impossible long-word gauntlets. Multi-profile, WPM tracking, streak system, and daily challenges."
+            stats={[{value:170,label:"Levels"},{value:10,label:"Layouts"},{value:11,label:"Sections"}]}
             features={["170 levels across Foundations, Word Power, Literature, Legend Tier and more","10 keyboard layouts including Colemak, Dvorak, QWERTZ, and Korean","Multi-profile system — one account, multiple family members","WPM personal bests, combo multipliers, and Keys currency","Section confetti and unlock animations when you reach new territory","Daily challenge with global leaderboard — new words every day"]}
           />
         </section>
