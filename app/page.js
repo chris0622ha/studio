@@ -239,33 +239,23 @@ const TQ_EFFECTS = [
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 22, 2026", items:["Extend the icon/level sync automation to also sync section banner data (names, subtitles, colors) - "] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 22, 2026", items:["Add Tug of War - new game with a real momentum/decay mechanic"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Add workflow_dispatch trigger to the icon-sync workflow for manual runs"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Make the icon-sync automation also cover level metadata, not just icon shapes"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Fix real gameplay bugs across multiple games"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Add 5 new levels (166-170), retire over-the-top names from levels 130-165 in favor of calmer ones, s"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed Speed Burst generating garbled single-character text instead of real words, and cleaned up an abbreviated difficulty value used throughout the games"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Revert temporary Google account picker forcing - back to normal auto-select behavior"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 22, 2026", items:["Section banners now stay in sync with the latest level names and colors automatically"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 22, 2026", items:["Added Tug of War, a new game with a real push-and-pull mechanic"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Asset syncing can now also be triggered manually"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Level names and icons now stay in sync automatically"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Fixed several gameplay bugs across multiple games"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added 5 new levels and renamed some of the more dramatic level names to be calmer"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed Speed Burst showing garbled text instead of real words"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Google sign-in is back to normal auto-select behavior"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added downloadable milestone and birthday certificates"] },
-  
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Replace Google Translate widget with real, hand-maintained translations (English, Korean, Spanish)"] },
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed outdated links in the admin panel's Quick Links section"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed a difficulty label showing as raw text, hardened the Test tab against a rare crash from malformed saved word lists"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more ways app state and shop purchases could be tampered with"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Close real level-lock and game-availability bypass paths"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Remove Spelling Bee entirely - text-to-speech quality had no good free/no-account fix, decided to re"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Spelling Bee now tries to use a better-sounding voice and warns you if audio might not be playing"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Google sign-in now always shows the account picker so you can choose which account to use"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Add accurate error message for Google/GitHub sign-in failing in private/incognito browsing"] },
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Replaced the translator with real, hand-written translations for English, Korean, and Spanish"] },
+  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed outdated links in the admin Quick Links panel"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed a difficulty label showing as raw text"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more ways the shop could be tampered with"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed ways locked levels and games could be reached without unlocking them first"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Removed Spelling Bee due to text-to-speech quality issues"] },
+
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed sign-in failing silently in private/incognito browsing"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed the back button sometimes skipping past screens it shouldn't"] },
   
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Sign-in is now disabled inside the tqak preview embed, matching TrivQuic"] }
@@ -274,9 +264,11 @@ const CHANGELOG = [
 // ── Main ──────────────────────────────────────────────────────────────────
 export default function Home() {
   const [filter,setFilter]=useState("all");
+  const [showAllChangelog,setShowAllChangelog]=useState(false);
   const [scrollY,setScrollY]=useState(0);
   useEffect(()=>{const f=()=>setScrollY(window.scrollY);window.addEventListener("scroll",f,{passive:true});return()=>window.removeEventListener("scroll",f);},[]);
-  const filtered=filter==="all"?CHANGELOG:CHANGELOG.filter(e=>e.tag===filter);
+  const filteredFull=filter==="all"?CHANGELOG:CHANGELOG.filter(e=>e.tag===filter);
+  const filtered=showAllChangelog?filteredFull:filteredFull.slice(0,3);
 
   return (
     <>
@@ -376,10 +368,15 @@ export default function Home() {
             <h2 style={{fontSize:"clamp(28px,4vw,44px)",fontWeight:900,margin:"0 0 12px",color:"#fff"}}>Changelog</h2>
             <p style={{color:"#666",fontSize:15}}>Updated every 2 additions across both apps</p>
           </div>
-          <div style={{display:"flex",gap:8,justifyContent:"center",marginBottom:40}}>
+          <div style={{display:"flex",gap:8,justifyContent:"center",marginBottom:16}}>
             {[["all","All"],["accuratkey","AccuratKey"],["trivquic","TrivQuic"]].map(([v,l])=>(
               <button key={v} onClick={()=>setFilter(v)} style={{padding:"7px 18px",borderRadius:99,border:`1px solid ${filter===v?"#7c6af7":"#1e1e30"}`,background:filter===v?"#7c6af722":"transparent",color:filter===v?"#a78bfa":"#666",fontSize:12,fontWeight:700,cursor:"pointer",transition:"all .2s",letterSpacing:.5}}>{l}</button>
             ))}
+          </div>
+          <div style={{display:"flex",justifyContent:"center",marginBottom:40}}>
+            <button onClick={()=>setShowAllChangelog(s=>!s)} style={{padding:"6px 16px",borderRadius:99,border:"1px solid #1e1e30",background:"transparent",color:"#555",fontSize:11,fontWeight:700,cursor:"pointer",transition:"all .2s",letterSpacing:.5}}>
+              {showAllChangelog?"Show Past 3":`Show All (${filteredFull.length})`}
+            </button>
           </div>
           <div style={{display:"flex",flexDirection:"column",gap:16}}>
             {filtered.map((e,i)=>(
