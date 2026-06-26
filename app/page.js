@@ -239,6 +239,8 @@ const TQ_EFFECTS = [
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Added Speed Surge II - a new 12th section, levels 171-180"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Fixed the changelog feed cutting off mid-sentence, removed an inaccurate Pomodoro mention from help docs"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Mini-games now have proper back-button support between the menu, settings, and gameplay"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Fixed the back button skipping past open menus like Friends and Challenges"] },
@@ -247,29 +249,7 @@ const CHANGELOG = [
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Removed the Stars rating from the level-completion certificate"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Fixed the no-keyboard warning not re-appearing if your keyboard disconnects"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 25, 2026", items:["Rebuilt the Shop with working Themes, Sounds, and Fonts tabs"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 24, 2026", items:["Fixed the Shop button not opening anything"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 24, 2026", items:["Fixed the Daily Challenge incorrectly showing Level 1 instead of the actual daily content"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 24, 2026", items:["Rhyme Time no longer shows you the answers"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 24, 2026", items:["Removed the Chill category and its games"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 23, 2026", items:["Rebuilt Brick Breaker with real ball-and-paddle gameplay"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 22, 2026", items:["Tug of War now has a real opponent and a real way to win or lose"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 22, 2026", items:["Section banners now stay in sync with the latest level names and colors automatically"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 22, 2026", items:["Added Tug of War, a new game with a real push-and-pull mechanic"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Asset syncing can now also be triggered manually"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Level names and icons now stay in sync automatically"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Fixed several gameplay bugs across multiple games"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added 5 new levels and renamed some of the more dramatic level names to be calmer"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed Speed Burst showing garbled text instead of real words"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Google sign-in is back to normal auto-select behavior"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Added downloadable milestone and birthday certificates"] },
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Replaced the translator with real, hand-written translations for English, Korean, and Spanish"] },
-  { app:"TrivQuic", tag:"trivquic", color:"#f59e0b", date:"Jun 20, 2026", items:["Fixed outdated links in the admin Quick Links panel"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed a difficulty label showing as raw text"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed more ways the shop could be tampered with"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Closed ways locked levels and games could be reached without unlocking them first"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Removed Spelling Bee due to text-to-speech quality issues"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed sign-in failing silently in private/incognito browsing"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed the back button sometimes skipping past screens it shouldn't"] },
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 24, 2026", items:["Fixed the Shop button not opening anything"] }
 ];
 
 // ── Main ──────────────────────────────────────────────────────────────────
