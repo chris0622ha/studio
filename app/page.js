@@ -239,6 +239,8 @@ const TQ_EFFECTS = [
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Fix the back button skipping past open modals"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Restore the REAL final version of ShopPage.jsx (660 lines, not the 389-line first draft I wrongly us"] },
   
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Restore the real shop page - I deleted it by mistake earlier this session"] },
@@ -265,10 +267,7 @@ const CHANGELOG = [
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Make the icon-sync automation also cover level metadata, not just icon shapes"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 21, 2026", items:["Fix real gameplay bugs across multiple games"] },
   
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Add 5 new levels (166-170), retire over-the-top names from levels 130-165 in favor of calmer ones, s"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Fixed Speed Burst generating garbled single-character text instead of real words, and cleaned up an abbreviated difficulty value used throughout the games"] },
-  
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Revert temporary Google account picker forcing - back to normal auto-select behavior"] }
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 20, 2026", items:["Add 5 new levels (166-170), retire over-the-top names from levels 130-165 in favor of calmer ones, s"] }
 ];
 
 // ── Main ──────────────────────────────────────────────────────────────────
