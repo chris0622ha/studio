@@ -239,6 +239,8 @@ const TQ_EFFECTS = [
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 27, 2026", items:["Added Wildcard Words - the randomness lives in the typing task itself"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 27, 2026", items:["Added Memory Edit - a genuinely different memory mechanic"] },
   
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Added Speed Surge II - a new 12th section, levels 171-180"] },
@@ -249,8 +251,7 @@ const CHANGELOG = [
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Added Word Bomb, a new game where you defuse a bomb before its fuse runs out"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Removed the Stars rating from the level-completion certificate"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 26, 2026", items:["Fixed the no-keyboard warning not re-appearing if your keyboard disconnects"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 25, 2026", items:["Rebuilt the Shop with working Themes, Sounds, and Fonts tabs"] },
-  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 24, 2026", items:["Fixed the Shop button not opening anything"] }
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 25, 2026", items:["Rebuilt the Shop with working Themes, Sounds, and Fonts tabs"] }
 ];
 
 // ── Main ──────────────────────────────────────────────────────────────────
