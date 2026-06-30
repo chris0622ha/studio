@@ -239,6 +239,7 @@ const TQ_EFFECTS = [
 
 // ── Changelog ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 30, 2026", items:["Removed Mad Libs, remove answer spoilers from Synonyms and Antonyms"] },
   
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 30, 2026", items:["Added owner-only bypass button on maintenance screen for live testing"] },
   { app:"AccuratKey", tag:"accuratkey", color:"#7c6af7", date:"Jun 30, 2026", items:["Fixed direct game URLs landing on the level map instead of the actual game"] },
